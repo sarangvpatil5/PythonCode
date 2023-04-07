@@ -7,7 +7,7 @@ Rough sketch of the program:
 2.Generate a random number between 1 and 100 using the random library and
   store it in the variable Number_Random.
 
-3.Start a for loop that will run 4 times.
+3.Start a for loop that will run 10 times.(10 seconds are given as input)
 
 4.In the loop, ask the user to input a natural number between 1 and 100 and 
   store it in the variable Number_Guess.
