@@ -1,0 +1,29 @@
+
+Rough sketch of the program:
+
+
+1.Import the required libraries: random and time.
+
+2.Generate a random number between 1 and 100 using the random library and
+  store it in the variable Number_Random.
+
+3.Start a for loop that will run 10 times.(10 seconds are given as input)
+
+4.In the loop, ask the user to input a natural number between 1 and 100 and 
+  store it in the variable Number_Guess.
+
+5.Check if the input entered by the user is a natural number or not.
+If it is not a natural number, print an error message and continue the loop.
+
+6.Convert the user input into an integer.
+
+7.Compare the user input with the random number generated at the start of the program. 
+  If they are equal, print a message with the number of attempts and break out of the loop.
+
+8.If the user input is less than the random number, print a message to guess a larger number.
+
+9.If the user input is greater than the random number, print a message to guess a smaller number.
+
+10.Wait for one second before prompting the user for the next guess using the time library.
+
+11.If the loop runs four times without a successful guessing number, print a message that the time is up and reveal the correct number.
